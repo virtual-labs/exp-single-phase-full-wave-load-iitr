@@ -1,6 +1,4 @@
-{
-	"version": 2.0,
-	"questions": [
+[
 		{
 			"question": "Which of the following expression is true for average output current in 1 phase full wave controlled rectifier with R load?",
 			"answers": {
@@ -52,4 +50,3 @@
 			"correctAnswer": "d"
 		}
 	]
-}

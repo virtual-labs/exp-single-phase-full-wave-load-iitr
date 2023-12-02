@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "Which of the following expression is peak voltage of ac voltage with rms voltage of 230V?",
 			"answers": {
@@ -52,7 +50,7 @@
 			"correctAnswer": "b"
 		}
 	]
-}
+
 
 
 

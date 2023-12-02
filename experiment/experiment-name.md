@@ -1,1 +1,1 @@
-## Single Phase Full Wave Silicon Controlled Rectifier With R Load, RL Load & RLE Load
+## Single Phase Full Wave Silicon Controlled Rectifier with R Load, RL Load & RLE Load
