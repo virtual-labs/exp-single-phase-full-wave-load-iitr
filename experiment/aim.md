@@ -1,1 +1,1 @@
-### To Study Single Phase Full Wave Silicon Controlled Rectifier With R Load, RL Load & RLE Load.
+#### To Study Single Phase Full Wave Silicon Controlled Rectifier with R Load, RL Load & RLE Load.

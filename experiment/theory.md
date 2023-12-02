@@ -209,15 +209,15 @@ $I_{rms} = \sqrt {I_o^2+ ∑_{n=2,4,6…}^{∞} \left(\frac {I_{n}^2}{\sqrt 2}\r
 <center><b>Fig. 6 Waveforms of Single Phase Full Wave SCR with RLE Load </b></center><br>
 
 The circuit arrangement of a Single Phase Full Wave Controlled Rectifier with RLE load is shown in Fig. 5.
-          During positive half cycle, thyristors TH1 and TH3 are forward biased and start conducting at ωt = α. The load
-          current flows through TH1, motor and TH3. At ωt = π, the supply voltages reverses. Because of inductance L
-          thyristors TH1 and TH3 continue to conduct beyond ωt = π. From ωt = π to ωt = 2π, thyristors TH3 and TH4 are
-          forward biased. When TH2 and TH4 are triggered at ωt = π + α, thyristors TH1 and TH3 are subjected to reverse
-          bias and are turned off by natural commutation. Load current is transferred from TH1 and TH3 to TH2 and TH4.
-          This mode of operation continues till TH1 and TH3 are triggered in the next positive half cycle. Load Current
-          tend to almost constant due to high L/R ratio.<br><br>
-          When we use a load with components R, L, E, the output waveform of the circuit is drawn as shown in the above Fig. 6. If the SCR is conducting, the output waveform is the same as that of the RL load rectifier circuit.
-          When no SCR is conducting (I<sub>o</sub> = 0) the output voltage is equal to E (V<sub>o</sub> = V<sub>dc</sub>).<br>
+During positive half cycle, thyristors TH1 and TH3 are forward biased and start conducting at ωt = α. The load
+current flows through TH1, motor and TH3. At ωt = π, the supply voltages reverses. Because of inductance L
+thyristors TH1 and TH3 continue to conduct beyond ωt = π. From ωt = π to ωt = 2π, thyristors TH3 and TH4 are
+forward biased. When TH2 and TH4 are triggered at ωt = π + α, thyristors TH1 and TH3 are subjected to reverse
+bias and are turned off by natural commutation. Load current is transferred from TH1 and TH3 to TH2 and TH4.
+This mode of operation continues till TH1 and TH3 are triggered in the next positive half cycle. Load Current
+tend to almost constant due to high L/R ratio.<br><br>
+When we use a load with components R, L, E, the output waveform of the circuit is drawn as shown in the above Fig. 6. If the SCR is conducting, the output waveform is the same that of the RL load rectifier circuit.
+When no SCR is conducting (I<sub>o</sub> = 0) the output voltage is equal to E (V<sub>o</sub> = V<sub>dc</sub>).<br>
 
 
 For conduction,<br> 
@@ -273,63 +273,62 @@ power. This is because it utilizes both halves of the input AC waveform, ensurin
 power.<br>
 
 2. Compared to half-wave rectifiers, the full-wave rectifier provides a smoother output waveform. It reduces
-          the ripple content in the DC output, resulting in a more stable and constant DC voltage.<br>
+the ripple content in the DC output, resulting in a more stable and constant DC voltage.<br>
 
 3. The full-wave rectifier configuration can provide a higher average DC output voltage compared to a
-          half-wave rectifier. This is due to the utilization of both positive and negative halves of the input AC
-          waveform.<br>
+half-wave rectifier. This is due to the utilization of both positive and negative halves of the input AC
+waveform.<br>
 
 4. By using controlled switching devices like thyristors, the rectification process can be controlled,
-          allowing for adjustable output voltage and power control. This feature is particularly useful in applications
-          that require variable voltage or power levels.<br>
+allowing for adjustable output voltage and power control. This feature is particularly useful in applications
+that require variable voltage or power levels.<br>
 
 ### **Disadvantages of Single Phase Full Wave SCR**
 
 1. The single-phase controlled full-wave rectifier is more complex compared to a half-wave rectifier. It
-          requires additional components like thyristors, triggering circuits, and gate control circuits. This
-          complexity increases the cost and can make the circuit more susceptible to faults.<br>
+requires additional components like thyristors, triggering circuits, and gate control circuits. This
+complexity increases the cost and can make the circuit more susceptible to faults.<br>
 
 2. The use of controlled switching devices can introduce harmonic distortion in the output waveform. These
-          harmonic components can cause interference in other electrical equipment connected to the same power supply,
-          leading to performance issues or malfunctions.<br>
+harmonic components can cause interference in other electrical equipment connected to the same power supply,
+leading to performance issues or malfunctions.<br>
 
 3. The additional components required for control and switching increase the overall cost of the rectifier
-          circuit. The cost of thyristors and their associated control circuits can be significant compared to simple
-          diodes used in half-wave rectifiers.<br>
+circuit. The cost of thyristors and their associated control circuits can be significant compared to simple
+diodes used in half-wave rectifiers.<br>
 
 4. The introduction of thyristors or other controlled switching devices adds complexity and potential points
-          of failure in the circuit. This can reduce the overall reliability of the rectifier compared to simpler
-          rectifier configurations.<br>
+of failure in the circuit. This can reduce the overall reliability of the rectifier compared to simpler
+rectifier configurations.<br>
 
 ### **Applications of Single Phase Full Wave SCR**
 
 1. Single-phase full-wave controlled rectifiers are commonly used in power supplies for electronic devices and
-          equipment. They convert AC voltage from the mains power supply to a regulated DC voltage suitable for powering
-          electronic circuits.<br>
+equipment. They convert AC voltage from the mains power supply to a regulated DC voltage suitable for powering
+electronic circuits.<br>
 
 2. Single-phase full-wave controlled rectifiers are used in motor drive systems to convert AC power into DC
-          power to drive DC motors. By controlling the firing angle of the rectifier, the speed and torque of the motor
-          can be regulated.<br>
+power to drive DC motors. By controlling the firing angle of the rectifier, the speed and torque of the motor
+can be regulated.<br>
 
 3. Single-phase full-wave controlled rectifiers are employed in battery charging systems to convert AC power
-          to DC power for charging batteries. The firing angle control allows for regulating the charging current and
-          voltage to prevent overcharging and optimize the charging process.<br>
+to DC power for charging batteries. The firing angle control allows for regulating the charging current and
+voltage to prevent overcharging and optimize the charging process.<br>
 
 4. Electroplating processes often require a controlled DC power supply. Single-phase full-wave controlled
-          rectifiers can be used to provide the required DC voltage and current for electroplating applications.<br>
+rectifiers can be used to provide the required DC voltage and current for electroplating applications.<br>
 
 5. Single-phase full-wave controlled rectifiers are utilized in welding machines to convert AC power to DC
-          power for welding operations. They provide a stable and controlled DC current necessary for welding
-          applications.<br>
+power for welding operations. They provide a stable and controlled DC current necessary for welding
+applications.<br>
 
 6. In some UPS systems, single-phase full-wave controlled rectifiers are used to rectify the incoming AC power
-          and charge the backup batteries. This ensures a continuous supply of power in the event of a power
-          outage.<br>
+and charge the backup batteries. This ensures a continuous supply of power in the event of a power
+outage.<br>
 
 7. Single-phase full-wave controlled rectifiers, in conjunction with additional power electronic devices such
-          as thyristors or transistors, are employed in variable speed drives to control the speed of AC motors. The
-          rectifier section converts AC power to DC power, which is further processed to generate variable-frequency AC
-          power to drive the motor at different speeds.<br>
-
+as thyristors or transistors, are employed in variable speed drives to control the speed of AC motors. The
+rectifier section converts AC power to DC power, which is further processed to generate variable-frequency AC
+power to drive the motor at different speeds.<br>
 
 </div>
