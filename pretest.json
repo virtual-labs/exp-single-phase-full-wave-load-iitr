@@ -1,0 +1,56 @@
+[
+		{
+			"question": "Which of the following expression is peak voltage of ac voltage with rms voltage of 230V?",
+			"answers": {
+				"a": "305 V",
+				"b": "160 V",
+				"c": "325 V",
+				"d": "466.66 V"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "A single phase full wave bridge rectifier has a supply voltage of 100V dc. What will be the peak reverse blocking voltage of each thyristor?",
+			"answers": {
+				"a": "200 V",
+				"b": "50 V",
+				"c": "100 V",
+				"d": "400 V"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "Which of the following is the firing angle range of RC full wave firing circuit?",
+			"answers": {
+				"a": "0° to 90°",
+				"b": "0° to 180°",
+				"c": "90° to 180°",
+				"d": "180° to 360°"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "A 1 - ∅ full wave rectifier is designed using thyristors. If the peak value of the sinusoidal input voltage Vm and the delay angle is π/6 radian, find the average value of output voltage?",
+			"answers": {
+				"a": "0.55 Vmax",
+				"b": "0.35 Vmax",
+				"c": "0.45 Vmax",
+				"d": "0.65 Vmax"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "If firing angle in an SCR circuit is increased, the output ________?",
+			"answers": {
+				"a": "Is increased",
+				"b": "Is decreased",
+				"c": "Remains the same",
+				"d": "None of the above"
+			},
+			"correctAnswer": "b"
+		}
+	]
+
+
+
+

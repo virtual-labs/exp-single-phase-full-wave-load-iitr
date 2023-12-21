@@ -1,0 +1,52 @@
+[
+		{
+			"question": "Which of the following expression is true for average output current in 1 phase full wave controlled rectifier with R load?",
+			"answers": {
+				"a": "Vm/πR (1+2cosα)",
+				"b": "Vm/πR (1+cosα)",
+				"c": "πVm/R (1+cosα)",
+				"d": "Vm/πR cosα"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "Which of the following value of α (in degrees) supports continuous current flow in 1 phase full wave controlled rectifier with R=100Ω, L=0.2H?",
+			"answers": {
+				"a": "50°",
+				"b": "35°",
+				"c": "90°",
+				"d": "20°"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "The full-wave controlled bridge rectifier has an ac input of 120V rms at 60 Hz and a 20Ω load resistor. The delay angle is 40°. Determine the average current in the load and the power absorbed by the load?",
+			"answers": {
+				"a": "9A, 673W",
+				"b": "2A, 500W",
+				"c": "4.77A, 673W",
+				"d": "5A, 483W"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "A controlled full-wave bridge rectifier has a source of 120 V rms at 60 Hz, an RL load where R = 10Ω and L = 100mH. The delay angle is 60°. Determine the power absorbed by the load?",
+			"answers": {
+				"a": "410 W",
+				"b": "512 W",
+				"c": "307 W",
+				"d": "320 W"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "A single-phase controlled, a full-bridge converter is supplying a highly inductive DC load. The conductor is fed from a 220V, 50Hz ac source. Find the fundamental frequency in Hz of the voltage ripple on the DC side?",
+			"answers": {
+				"a": "300 Hz",
+				"b": "220 Hz",
+				"c": "50 Hz",
+				"d": "100 Hz"
+			},
+			"correctAnswer": "d"
+		}
+	]
