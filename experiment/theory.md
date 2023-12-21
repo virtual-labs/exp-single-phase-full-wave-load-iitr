@@ -1,4 +1,12 @@
 
+<head>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
+  
+</script>
+
+</head>
+
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;text-align: justify;">
 
 ### **Introduction**
@@ -72,7 +80,7 @@ The average of the waveform is determined by the following expression,<br>
 
 <center>
 
-$V_{o} = \frac {1}{\pi} \int_{\alpha}^{\pi} V_{m} \sin(⁡wt) d(wt) = \frac {V_{m}}{\pi} ( 1 + cos⁡\alpha ) .......(1)$
+$$V_{o} = \frac {1}{\pi} \int_{\alpha}^{\pi} V_{m} \ sinwt \ d(wt) = \frac {V_{m}}{\pi} ( 1 + cos⁡\alpha ) .......(1)$$
 
 </center>
 
@@ -80,7 +88,7 @@ Average output current,<br>
 
 <center>
 
-$I_{o} = \frac {V_{o}}{R} = \frac {V_{m}}{\pi R} ( 1+ \cos⁡\alpha) .......(2)$
+$$I_{o} = \frac {V_{o}}{R} = \frac {V_{m}}{\pi R} ( 1+ \cos⁡\alpha) .......(2)$$
 
 </center>
 
@@ -88,7 +96,7 @@ Power in the resistance,<br>
 
 <center>
 
-$P = I_{rms}^2*R.......(3)$<br>
+$$P = I_{rms}^2*R.......(3)$$
 
 </center>
 
@@ -96,13 +104,13 @@ Where,
 
 <center>
 
-$I_{rms} = \frac {V_{m}}{R} \sqrt{\frac {1}{2} - \frac {\alpha}{2\pi} + \sin⁡\left(\frac {2\alpha}{4\pi}\right)}.......(4)$
+$$I_{rms} = \frac {V_{m}}{R} \sqrt{\frac {1}{2} - \frac {\alpha}{2\pi} + \sin⁡\left(\frac {2\alpha}{4\pi}\right)}.......(4)$$
 
 </center>
 
 <center>
 
-$V_{rms} = V_{m} \sqrt{\frac {1}{2} - \frac {\alpha}{2\pi} + \sin⁡\left(\frac {2\alpha}{4\pi}\right)}.......(5)$
+$$V_{rms} = V_{m} \sqrt{\frac {1}{2} - \frac {\alpha}{2\pi} + \sin⁡\left(\frac {2\alpha}{4\pi}\right)}.......(5)$$
 
 </center>
 
@@ -136,7 +144,7 @@ At firing angle α = 60°, thyristors TH1 and TH3 are triggered. Supply voltage 
 
 <center>          
 
-$i_{o(wt)} = \frac {V_m}{Z}( sin⁡(wt-θ)- sin⁡(\alpha-θ)e^{ \frac {-(wt-\alpha)}{wτ}}).......(6)$
+$$i_{o~(wt)} = \frac {V_m}{Z}\left[ sin⁡(wt-θ)- sin⁡(\alpha-θ)e^{ \frac {-(wt-\alpha)}{wτ}}\right].......(6)$$
 
 </center>
 
@@ -144,33 +152,33 @@ Solving for $\alpha$,
 
 <center>   
 
-$\alpha ≤ θ$
+$$\alpha ≤ θ$$
 
 </center>
 
 <center>   
 
-$θ= \tan^{-1}⁡(\frac {wL}{R}) .......(7)$
+$$θ = \tan^{-1}\left(\frac {wL}{R}\right) .......(7)$$
 
 </center>
 
 <center>   
 
-$\alpha ≤ \tan^{-1}⁡(\frac {wL}{R}) .......(8)$
+$$\alpha ≤ \tan^{-1}⁡\left(\frac {wL}{R}\right) .......(8)$$
 
 </center>
 
-The dc(average value) is,<br>
+The dc (average value) is,<br>
 
 <center>   
 
-$V_{o} = \frac {1}{\pi} \int_{\alpha}^{\alpha+\pi} V_{m} \sin{(wt)} d(wt) = \frac {2V_{m}}{\pi} \cos⁡ {\alpha} .......(9)$
+$$V_{o} = \frac {1}{\pi} \int_{\alpha}^{\alpha + \pi} V_{m} \sin{wt} ~ d(wt) = \frac {2V_{m}}{\pi} \cos⁡ {\alpha} .......(9)$$
 
 </center>
 
 <center>   
 
-$I_{o} = \frac {1}{\pi R} \int_{\alpha}^{\alpha+\pi} V_{m} \sin{(wt)} d(wt) = \frac {2V_{m}}{\pi R} \cos⁡ {\alpha} .......(10)$
+$$I_{o} = \frac {1}{\pi R} \int_{\alpha}^{\alpha + \pi} V_{m} \sin{wt} ~ d(wt) = \frac {2V_{m}}{\pi R} \cos⁡ {\alpha} .......(10)$$
 
 </center>
 
@@ -178,25 +186,25 @@ The amplitude of ac terms are calculated from,<br>
 
 <center>   
 
-$V_{n} = \sqrt {a_{n}^2 + b_{n}^2} .......(11)$
+$$V_{n} = \sqrt {a_{n}^2 + b_{n}^2} .......(11)$$
 
 </center>
 
 <center>   
 
-$a_{n} = \frac {2V_{m}}{\pi}\left[\frac {cos⁡(n+1)\alpha}{n+1} - \frac {cos⁡(n-1)\alpha}{n-1}\right].......(12)$
+$$a_{n} = \frac {2V_{m}}{\pi}\left[\frac {cos⁡(n+1)\alpha}{n+1} - \frac {cos⁡(n-1)\alpha}{n-1}\right].......(12)$$
 
 </center>
 
 <center>   
 
-$b_{n} = \frac {2V_{m}}{\pi}\left[\frac {sin⁡(n+1)\alpha}{n+1} - \frac {sin⁡(n-1)\alpha}{n-1}\right].......(13)$
+$$b_{n} = \frac {2V_{m}}{\pi}\left[\frac {sin⁡(n+1)\alpha}{n+1} - \frac {sin⁡(n-1)\alpha}{n-1}\right].......(13)$$
 
 </center>
 
 <center>   
 
-$I_{rms} = \sqrt {I_o^2+ ∑_{n=2,4,6…}^{∞} \left(\frac {I_{n}^2}{\sqrt 2}\right)^2 } .......(14)$
+$$I_{rms} = \sqrt {I_o^2+ ∑_{n=2,4,6…}^{∞} \left(\frac {I_{n}^2}{\sqrt 2}\right)^2 } .......(14)$$
 
 </center>
 
@@ -224,7 +232,7 @@ For conduction,<br>
 
 <center>   
 
-$\alpha ≥ \sin^{-1}\left(\frac {V_{dc}}{V_{m}}\right) .......(15)$
+$$\alpha ≥ \sin^{-1}\left(\frac {V_{dc}}{V_{m}}\right) .......(15)$$
 
 </center>
 
@@ -232,7 +240,7 @@ The average bridge output voltage is,<br>
 
 <center>   
 
-$V_{o} = \frac {2V_m}{\pi} \cos⁡\alpha.......(16)$
+$$V_{o} = \frac {2V_m}{\pi} \ cos⁡\alpha.......(16)$$
 
 </center>
 
@@ -240,7 +248,7 @@ The average load current is,<br>
 
 <center>
 
-$I_{o} = \frac {2V_{m} \cos⁡\alpha}{\pi R} - \frac {V_{dc}}{R} .......(17)$
+$$I_{o} = \frac {2V_{m} \ cos⁡\alpha}{\pi R} - \frac {V_{dc}}{R} .......(17)$$
 
 </center>
 
@@ -248,13 +256,13 @@ The expression for the $V_{rms}$ and $I_{rms}$ are,<br>
 
 <center>
 
-$V_{rms} = V_{max} \sqrt{\frac {\pi-\alpha}{2\pi} + \frac {\sin 2\alpha}{4\pi}}.......(18)$
+$$V_{rms} = V_{max} \sqrt{\frac {\pi-\alpha}{2\pi} + \frac {\sin 2\alpha}{4\pi}}.......(18)$$
 
 </center>
 
 <center>
 
-$I_{rms} = \frac {V_{max}}{R} \sqrt{\frac {\pi-\alpha}{2\pi} + \frac {\sin 2\alpha}{4\pi}}.......(19)$
+$$I_{rms} = \frac {V_{max}}{R} \sqrt{\frac {\pi-\alpha}{2\pi} + \frac {\sin 2\alpha}{4\pi}}.......(19)$$
 
 </center>
 
@@ -262,7 +270,7 @@ Power absorbed by dc voltage is,<br>
 
 <center>
 
-$P_{dc} = I_{o} * V_{dc } .......(20)$
+$$P_{dc} = I_{o} * V_{dc } .......(20)$$
 
 </center>
 
